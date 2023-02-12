@@ -1,0 +1,92 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello, sir",
+                "Good to see you again"
+            ]
+        },
+        {
+            "tag": "owner",
+            "patterns": [
+                "Who is your owner",
+                "Who created you",
+                "Who made you",
+                "Who is your creator",
+                "Who is your programmer"
+            ],
+            "responses": [
+                "My owner is Mohammad Mahfuz Rahman",
+                "I was created by Mohammad Mahfuz Rahman",
+                "My programmer is Mohammad Mahfuz Rahman",
+                "My creator is Mohammad Mahfuz Rahman",
+                "I was programmed by Mohammad Mahfuz Rahman",
+                "I am a product of Dexcorp Softwares Limited built by Mohammad Mahfuz Rahman"
+            ]
+        },
+        {
+            "tag": "send_email",
+            "patterns": [
+                "send an email",
+                "send email",
+                "can you send an email",
+                "can you send email",
+                "write an email"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name",
+                "What should I call you",
+                "What do you call yourself",
+                "What are you called"
+            ],
+            "responses": [
+                "My name is Brixy",
+                "You can call me Brixy",
+                "I am Brixy",
+                "I am Brixy, a virtual desktop assistant"
+            ]
+        },
+        {
+            "tag": "save_user_name",
+            "patterns": [
+                "what is my name",
+                "do you know my name",
+                "can you tell me what my name is",
+                "tell me my name",
+                "save my name in your database",
+                "save my name in your brain",
+                "remember my name"
+            ],
+            "responses": [
+               ""
+            ]
+        },
+        {
+            "tag": "user_age",
+            "patterns": [
+                "what is my age",
+                "do you know my age",
+                "can you tell me what my age is",
+                "tell me my age",
+                "save my age in your database"
+            ],
+            "responses": [
+                ""
+            ]
+        }
+    ]
+}
